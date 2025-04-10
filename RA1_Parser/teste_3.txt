@@ -1,0 +1,6 @@
+5
+( \neg )                          # inválida: falta operando
+( \wedge )                        # inválida: falta dois operandos
+\neg 1a                           # inválida: não está entre parênteses
+1a \vee false                    # inválida: operador binário fora da forma correta
+( \neg ( \neg ) )                # inválida: o segundo \neg não tem operando

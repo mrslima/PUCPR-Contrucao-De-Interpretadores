@@ -1,0 +1,7 @@
+6
+false
+( \neg 3a )
+( \vee 1x )                        # inválida: operador binário com apenas 1 operando
+( \rightarrow 1a 2b )
+( 2p \wedge true )                # inválida: ordem errada dos tokens
+( \leftrightarrow ( \neg false ) 3x )

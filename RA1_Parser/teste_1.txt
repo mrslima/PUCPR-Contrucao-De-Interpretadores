@@ -1,0 +1,4 @@
+3
+true
+( \neg false )
+( \wedge 1p false )
